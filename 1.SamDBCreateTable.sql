@@ -61,3 +61,4 @@ CREATE TABLE [Payments] (
   CONSTRAINT [FK_Payments_BookingID] FOREIGN KEY ([BookingID])
     REFERENCES [Bookings]([BookingID])
 );
+
